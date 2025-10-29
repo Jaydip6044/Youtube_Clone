@@ -2,8 +2,9 @@
   "name": "youtube_clone",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -11,5 +12,9 @@
   ],
   "author": "Jaydip Vaghela",
   "license": "ISC",
-  "description": ""
+  "description": "This is Youtube clone website like duplicate",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
 }
